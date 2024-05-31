@@ -1,0 +1,181 @@
+@keyframes slideInFromTop {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    70% {
+        transform: translateY(15%);
+        opacity: 1;
+    }
+    90% {
+        transform: translateY(-5%);
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    70% {
+        transform: translateX(15%);
+        opacity: 1;
+    }
+    90% {
+        transform: translateX(-5%);
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    70% {
+        transform: translateX(-15%);
+        opacity: 1;
+    }
+    90% {
+        transform: translateX(5%);
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    70% {
+        transform: translateY(-15%);
+        opacity: 1;
+    }
+    90% {
+        transform: translateY(5%);
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.cube-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.face {
+    margin-top: 10vh;
+    width: 80vw;
+    height: 80vh;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.front {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+
+}
+
+.top {
+    font-size: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px 0px;
+    font-weight: 1000;
+    opacity: 0;
+}
+
+.head {
+    color: #ffa69e;
+    animation: slideInFromTop 1s forwards;
+    animation-delay: 0.5s;
+}
+
+.logo {
+    color: #ff7e6b;
+    animation: slideInFromLeft 1s forwards;
+    animation-delay: 1.5s;
+}
+
+.ui {
+    color: #8c5e58;
+    animation: slideInFromRight 1s forwards;
+    animation-delay: 2.5s;
+}
+
+.website {
+    color: #4cf5ac;
+    animation: slideInFromBottom 1s forwards;
+    animation-delay: 3.5s;
+}
+
+.android {
+    color: #9666f7;
+    animation: slideInFromTop 1s forwards;
+    animation-delay: 4.5s;
+}
+
+.full {
+    color: #f766f7;
+    animation: slideInFromLeft 1s forwards;
+    animation-delay: 5.5s;
+}
+
+.no-worry {
+    color: #f94e4e;
+    animation: slideInFromRight 1s forwards;
+    animation-delay: 6.5s;
+}
+/* the animation is not working the eay it should
+.star{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    background-color: yellow;
+    border-radius: 50%;
+    box-shadow: 0 0 10px yellow;
+    animation: borderAnimation 4s linear infinite;
+    animation-delay: 8s; 
+}
+
+@keyframes borderAnimation {
+    0% {
+        transform: translateX(0) translateY(0);
+    }
+    25% {
+        transform: translateX(100%) translateY(0);
+    }
+    50% {
+        transform: translateX(100%) translateY(100%);
+    }
+    75% {
+        transform: translateX(0) translateY(100%);
+    }
+    100% {
+        transform: translateX(0) translateY(0);
+    }
+} */
+
+/* typing animation
+ */
+/
